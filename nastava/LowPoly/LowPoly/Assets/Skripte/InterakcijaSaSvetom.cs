@@ -28,7 +28,7 @@ public class InterakcijaSaSvetom : MonoBehaviour {
             GameObject interactionObject = interactionInfo.collider.gameObject;
             if (interactionObject.tag == "Interaktabilno")
             {
-                Debug.Log("Sa ovim se moze interaktovati");
+                interactionObject.GetComponent<Interackija>().PomerajDoInterakcije(playerAgent);
             }
             else
             {

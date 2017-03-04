@@ -46,10 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skripte\Interackija.cs" />
      <Compile Include="Assets\Skripte\InterakcijaSaSvetom.cs" />
+<<<<<<< HEAD
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
+=======
+     <Compile Include="Assets\Skripte\NPC.cs" />
+>>>>>>> origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

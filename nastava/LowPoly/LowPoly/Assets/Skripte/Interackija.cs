@@ -9,6 +9,7 @@ public class Interackija : MonoBehaviour {
     public virtual void PomerajDoInterakcije(UnityEngine.AI.NavMeshAgent playerAgent)
     {
         this.playerAgent = playerAgent;
+        playerAgent.stoppingDistance = 1.5f;
         playerAgent.destination = this.transform.position;
 
         Interakt();

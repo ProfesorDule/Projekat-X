@@ -49,6 +49,7 @@
      <Compile Include="Assets\Skripte\Interackija.cs" />
      <Compile Include="Assets\Skripte\InterakcijaSaSvetom.cs" />
      <Compile Include="Assets\Skripte\NPC.cs" />
+     <Compile Include="Assets\Skripte\PokupiItem.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

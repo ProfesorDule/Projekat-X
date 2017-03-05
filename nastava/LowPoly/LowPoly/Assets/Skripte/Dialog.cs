@@ -1,13 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Dialog : MonoBehaviour {
+public class Dialog : MonoBehaviour
+{
 
     public static Dialog Instance { get; set; }
 
+
+    public string npcName;
+    public GameObject DialougePanel;
+    public List<string> dialogLines = new List<string>();
+
+
+    Button continueButton;
+    Text dialougeText, nameText;
+    int dialougeIndex;
     void Awake()
     {
+        continueButton = DialougePanel.transform.FindChild("Continue").GetComponent<Button>();
+        dialougeText = DialougePanel.transform.FindChild("Text").GetComponent<Text>();
+        nameText = DialougePanel.transform.FindChild("Name").GetChild(0).GetComponent<Text>();
+        continueButton.onClick.AddListener(delegate { ContinueDialog(); });
+        DialougePanel.SetActive(false);
+
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -18,13 +35,36 @@ public class Dialog : MonoBehaviour {
         }
     }
 
-    public void AddNewDialog(string[] lines)
+    public void AddNewDialog(string[] lines, string npcName)
     {
-        List<string> dialogLines = new List<string>();
+        dialougeIndex = 0;
+        dialogLines = new List<string>();
         foreach (string line in lines)
         {
             dialogLines.Add(line);
         }
+        this.npcName = npcName;
         Debug.Log(dialogLines.Count);
+        CreateDialog();
+    }
+
+    public void CreateDialog()
+    {
+        dialougeText.text = dialogLines[dialougeIndex];
+        nameText.text = npcName;
+        DialougePanel.SetActive(true);
+    }
+
+    public void ContinueDialog()
+    {
+        if (dialougeIndex < dialogLines.Count - 1)
+        {
+            dialougeIndex++;
+            dialougeText.text = dialogLines[dialougeIndex];
+        }
+        else
+        {
+            DialougePanel.SetActive(false);
+        }
     }
 }

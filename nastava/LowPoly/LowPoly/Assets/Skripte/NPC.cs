@@ -10,7 +10,7 @@ public class NPC : Interackija {
 
     public override void Interakt()
     {
-        Dialog.Instance.AddNewDialog(dialog);
+        Dialog.Instance.AddNewDialog(dialog, name);
         Debug.Log("Interakcija sa NPC-om");
     }
 }

@@ -50,7 +50,7 @@ public class Dialog : MonoBehaviour
 
     public void CreateDialog()
     {
-        dialougeText.text = dialogLines[dialougeIndex];
+        Cekaj(dialougeIndex);
         nameText.text = npcName;
         DialougePanel.SetActive(true);
     }
@@ -60,11 +60,20 @@ public class Dialog : MonoBehaviour
         if (dialougeIndex < dialogLines.Count - 1)
         {
             dialougeIndex++;
-            dialougeText.text = dialogLines[dialougeIndex];
+            Cekaj(dialougeIndex);
         }
         else
         {
             DialougePanel.SetActive(false);
+        }
+    }
+
+    IEnumerator Cekaj(int dialogIndex)
+    {
+        for (int i = 0; i < dialogLines[dialougeIndex].Length; i++)
+        {
+            dialougeText.text = dialougeText.text + "" + dialogLines[dialougeIndex][i];
+            yield return new WaitForSeconds(0.5F);
         }
     }
 }

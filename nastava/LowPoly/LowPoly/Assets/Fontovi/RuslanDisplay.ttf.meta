@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c58dd3032285d2e46ad73f5ba3c77842
+timeCreated: 1489318664
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ruslan Display
+  fontNames:
+  - Ruslan Display
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -80,7 +80,7 @@ public class Dialog : MonoBehaviour
         for (i = 0; i < dialogLines[dialougeIndex].Length; i++)
         {
             dialougeText.text = dialougeText.text + "" + dialogLines[dialougeIndex][i];
-            yield return new WaitForSeconds(0.1F);
+            yield return new WaitForSeconds(0.05F);
         }
         continueButton.enabled = true;
     }

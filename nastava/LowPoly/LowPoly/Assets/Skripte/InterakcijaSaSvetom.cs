@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class InterakcijaSaSvetom : MonoBehaviour {
 
-    public static InterakcijaSaSvetom Instance { get; set; }
-
     UnityEngine.AI.NavMeshAgent playerAgent;
-    public int Inter = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +29,6 @@ public class InterakcijaSaSvetom : MonoBehaviour {
             if (interactionObject.tag == "Interaktabilno")
             {
                 interactionObject.GetComponent<Interackija>().PomerajDoInterakcije(playerAgent);
-                Inter = 1;
             }
             else if (Inter == 0)
             {
@@ -40,11 +36,6 @@ public class InterakcijaSaSvetom : MonoBehaviour {
             }
         }
 
-    }
-
-    public void Zavrsi()
-    {
-        Inter = 0;
     }
 }
 

@@ -45,22 +45,26 @@ public class Dialog : MonoBehaviour
         }
         this.npcName = npcName;
         Debug.Log(dialogLines.Count);
+        dialougeText.text = "";
         CreateDialog();
     }
 
     public void CreateDialog()
     {
-        Cekaj(dialougeIndex);
+        StartCoroutine(Cekaj(dialougeIndex));
         nameText.text = npcName;
         DialougePanel.SetActive(true);
+        continueButton.enabled = false;
     }
 
     public void ContinueDialog()
     {
+        dialougeText.text = "";
+        continueButton.enabled = false;
         if (dialougeIndex < dialogLines.Count - 1)
         {
             dialougeIndex++;
-            Cekaj(dialougeIndex);
+            StartCoroutine(Cekaj(dialougeIndex));
         }
         else
         {
@@ -70,10 +74,14 @@ public class Dialog : MonoBehaviour
 
     IEnumerator Cekaj(int dialogIndex)
     {
-        for (int i = 0; i < dialogLines[dialougeIndex].Length; i++)
+        Debug.Log("Uso je u Cekaj");
+        dialougeText = DialougePanel.transform.FindChild("Text").GetComponent<Text>();
+        int i;
+        for (i = 0; i < dialogLines[dialougeIndex].Length; i++)
         {
             dialougeText.text = dialougeText.text + "" + dialogLines[dialougeIndex][i];
-            yield return new WaitForSeconds(0.5F);
+            yield return new WaitForSeconds(0.1F);
         }
+        continueButton.enabled = true;
     }
 }

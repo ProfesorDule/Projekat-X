@@ -68,6 +68,7 @@ public class Dialog : MonoBehaviour
         else
         {
             DialougePanel.SetActive(false);
+            InterakcijaSaSvetom.Inter = 0;
         }
     }
 

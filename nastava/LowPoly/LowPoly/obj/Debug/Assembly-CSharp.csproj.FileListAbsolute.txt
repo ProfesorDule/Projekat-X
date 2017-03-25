@@ -27,3 +27,5 @@ D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.pdb
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll

@@ -30,7 +30,7 @@ public class InterakcijaSaSvetom : MonoBehaviour {
             {
                 interactionObject.GetComponent<Interackija>().PomerajDoInterakcije(playerAgent);
             }
-            else
+            else if (Inter == 0)
             {
                 playerAgent.destination = interactionInfo.point;
             }

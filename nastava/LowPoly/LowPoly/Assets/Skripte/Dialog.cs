@@ -13,7 +13,6 @@ public class Dialog : MonoBehaviour
     public GameObject DialougePanel;
     public List<string> dialogLines = new List<string>();
 
-
     Button continueButton;
     Text dialougeText, nameText;
     int dialougeIndex;

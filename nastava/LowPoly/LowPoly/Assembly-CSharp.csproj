@@ -46,12 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skripte\BazniStatovi.cs" />
      <Compile Include="Assets\Skripte\CamFolow.cs" />
+     <Compile Include="Assets\Skripte\CharacterStats.cs" />
      <Compile Include="Assets\Skripte\Dialog.cs" />
      <Compile Include="Assets\Skripte\Interackija.cs" />
      <Compile Include="Assets\Skripte\InterakcijaSaSvetom.cs" />
      <Compile Include="Assets\Skripte\NPC.cs" />
      <Compile Include="Assets\Skripte\PokupiItem.cs" />
+<<<<<<< HEAD
      <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
      <None Include="Assets\Standard Assets\Effects\TemporalAntiAliasing\Resources\TemporalAntiAliasing.cginc" />
      <None Include="Assets\Standard Assets\Effects\MotionBlur\Resources\Reconstruction.cginc" />
@@ -80,6 +83,9 @@
      <None Include="Assets\Standard Assets\Effects\MotionBlur\Resources\Reconstruction.shader" />
      <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
      <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+=======
+     <Compile Include="Assets\Skripte\StatBonus.cs" />
+>>>>>>> origin/Nastava
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

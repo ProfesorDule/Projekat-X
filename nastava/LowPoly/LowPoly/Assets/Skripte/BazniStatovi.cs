@@ -30,6 +30,7 @@ public class BazniStatovi{
 
     public int GetStat()
     {
+        this.FinalValue = 0;
         this.Bonus.ForEach(x => this.FinalValue += x.VrednostBonusa);
         FinalValue += BaznaVrednost;
         return FinalValue;

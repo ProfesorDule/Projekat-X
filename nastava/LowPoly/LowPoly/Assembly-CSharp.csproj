@@ -50,11 +50,16 @@
      <Compile Include="Assets\Skripte\CamFolow.cs" />
      <Compile Include="Assets\Skripte\CharacterStats.cs" />
      <Compile Include="Assets\Skripte\Dialog.cs" />
+     <Compile Include="Assets\Skripte\IOruzija.cs" />
      <Compile Include="Assets\Skripte\Interackija.cs" />
      <Compile Include="Assets\Skripte\InterakcijaSaSvetom.cs" />
+     <Compile Include="Assets\Skripte\InventoryController.cs" />
+     <Compile Include="Assets\Skripte\Item.cs" />
+     <Compile Include="Assets\Skripte\KontrolaOruzijaIgrac.cs" />
+     <Compile Include="Assets\Skripte\Mac.cs" />
      <Compile Include="Assets\Skripte\NPC.cs" />
      <Compile Include="Assets\Skripte\PokupiItem.cs" />
-<<<<<<< HEAD
+     <Compile Include="Assets\Skripte\StatBonus.cs" />
      <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
      <None Include="Assets\Standard Assets\Effects\TemporalAntiAliasing\Resources\TemporalAntiAliasing.cginc" />
      <None Include="Assets\Standard Assets\Effects\MotionBlur\Resources\Reconstruction.cginc" />
@@ -83,12 +88,6 @@
      <None Include="Assets\Standard Assets\Effects\MotionBlur\Resources\Reconstruction.shader" />
      <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
      <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
-=======
-     <Compile Include="Assets\Skripte\StatBonus.cs" />
-<<<<<<< HEAD
-=======
->>>>>>> origin/Nastava
->>>>>>> origin/Nastava
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -107,6 +106,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{20EB8EDD-9230-ABF5-3618-DCFD2F544088}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

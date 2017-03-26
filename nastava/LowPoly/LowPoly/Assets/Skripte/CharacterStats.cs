@@ -13,7 +13,6 @@ public class CharacterStats : MonoBehaviour {
 
 	void Start () {
         stat.Add(new BazniStatovi(4, "Snaga", "Nivo snage"));
-        stat[0].DodajBonus(new StatBonus(5));
         Debug.Log("Snaga: " + stat[0].GetStat());
 
         plus = StatPanel.transform.FindChild("BtPlus").GetComponent<Button>();
@@ -35,6 +34,19 @@ public class CharacterStats : MonoBehaviour {
         StatVr.text = "" + stat[0].GetStat();
     }
 
-        
-        
+    public void DodajStatBonus(List<BazniStatovi> statBonusi)
+    {
+        foreach (BazniStatovi statBonus in statBonusi)
+        {
+            stat.Find(x => x.ImeStata == statBonus.ImeStata).DodajBonus(new StatBonus(statBonus.BaznaVrednost));
+        }
+    }
+
+    public void IzbrisiStatBonus(List<BazniStatovi> statBonusi)
+    {
+        foreach (BazniStatovi statBonus in statBonusi)
+        {
+            stat.Find(x => x.ImeStata == statBonus.ImeStata).OduzmiBonus(new StatBonus(statBonus.BaznaVrednost));
+        }
+    }
 }

@@ -25,7 +25,7 @@ public class BazniStatovi{
 
     public void OduzmiBonus(StatBonus statBonus)
     {
-        this.Bonus.Remove(statBonus);
+        this.Bonus.Remove(Bonus.Find(x => x.VrednostBonusa == statBonus.VrednostBonusa));
     }
 
     public int GetStat()

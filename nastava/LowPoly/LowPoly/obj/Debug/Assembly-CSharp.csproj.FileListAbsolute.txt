@@ -27,3 +27,37 @@ D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll
 D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.pdb
+<<<<<<< HEAD
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll
+=======
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEditor.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEditor.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll
+C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.pdb
+>>>>>>> origin/Nastava

@@ -24,14 +24,17 @@ public class KontrolaOruzijaIgrac : MonoBehaviour {
             Destroy(rukaIgraca.transform.GetChild(0).gameObject);
         }
 
-        UzetoOruzije = (GameObject)Instantiate(Resources.Load<GameObject>("Oruzija/" + novoOruzije.ObjectSlug),rukaIgraca.transform.position,rukaIgraca.transform.rotation);
-        UzetoOruzije.GetComponent<IOruzija>().Stat = novoOruzije.stats;
+        UzetoOruzije = (GameObject)Instantiate(Resources.Load<GameObject>("Oruzija/" + novoOruzije.ObjectSlug),
+            rukaIgraca.transform.position,rukaIgraca.transform.rotation);
+        uzetoOruzije = UzetoOruzije.GetComponent<IOruzija>();
         UzetoOruzije.transform.SetParent(rukaIgraca.transform);
+        uzetoOruzije.Stat = novoOruzije.stats;       
         characterStats.DodajStatBonus(novoOruzije.stats);
+        Debug.Log(uzetoOruzije.Stat[0].FinalValue);
     }
 
     public void UradiNapad()
     {
-        UzetoOruzije.GetComponent<IOruzija>().Napadni();
+        uzetoOruzije.Napadni();
     }
 }

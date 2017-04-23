@@ -57,7 +57,6 @@ C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\
 C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\UnityEngine.VR.xml
-C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.dll
 C:\Users\kurs.SYSTEMPRO.001\Documents\GitHub\Projekat-X\nastava\LowPoly\LowPoly\obj\Debug\Assembly-CSharp.pdb
 >>>>>>> origin/Nastava
+D:\UnityPredavanje\Projekat-X\nastava\LowPoly\LowPoly\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

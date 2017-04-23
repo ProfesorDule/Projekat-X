@@ -9,20 +9,20 @@ public class CharacterStats : MonoBehaviour {
     Button plus,minus;
     Text StatVr;
 
-    public GameObject StatPanel;
+   // public GameObject StatPanel;
 
 	void Start () {
         stat.Add(new BazniStatovi(4, "Snaga", "Nivo snage"));
         Debug.Log("Snaga: " + stat[0].GetStat());
 
-        plus = StatPanel.transform.FindChild("BtPlus").GetComponent<Button>();
-        minus = StatPanel.transform.FindChild("BtMinus").GetComponent<Button>();
-        StatVr = StatPanel.transform.FindChild("Tekst").GetComponent<Text>();
-        plus.onClick.AddListener(delegate { PovecajStat(); });
-        minus.onClick.AddListener(delegate { SmanjiStat(); });
+       // plus = StatPanel.transform.FindChild("BtPlus").GetComponent<Button>();
+       // minus = StatPanel.transform.FindChild("BtMinus").GetComponent<Button>();
+       // StatVr = StatPanel.transform.FindChild("Tekst").GetComponent<Text>();
+      //  plus.onClick.AddListener(delegate { PovecajStat(); });
+       // minus.onClick.AddListener(delegate { SmanjiStat(); });
     }
 
-    public void PovecajStat()
+  /*  public void PovecajStat()
     {
         stat[0].BaznaVrednost++;
         StatVr.text = "" + stat[0].GetStat();
@@ -32,7 +32,7 @@ public class CharacterStats : MonoBehaviour {
     {
         stat[0].BaznaVrednost--;
         StatVr.text = "" + stat[0].GetStat();
-    }
+    }*/
 
     public void DodajStatBonus(List<BazniStatovi> statBonusi)
     {
